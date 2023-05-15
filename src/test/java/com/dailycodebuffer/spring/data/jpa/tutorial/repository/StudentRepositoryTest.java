@@ -20,9 +20,9 @@ class StudentRepositoryTest {
     @Test
     public void saveStudent() {
         Student student = Student.builder()
-                .emailId("shabbit@gmail.com")
-                .firstName("Shabbir")
-                .lastName("Dawoodi")
+                .emailId("abc@gmail.com")
+                .firstName("Abc")
+                .lastName("Def")
 //                .guardianName("Nikhil")
 //                .guardianEmail("nikhil@gmail.com")
 //                .guardianMobile("9999999999")
